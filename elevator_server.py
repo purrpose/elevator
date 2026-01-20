@@ -16,7 +16,7 @@ client.username_pw_set(MQTT_USER, MQTT_PASS)
 
 if MQTT_TLS:
     # включаем TLS без явной проверки CA — быстро для теста
-    client.tls_set()  # можно передать CA файл, если хочешь строгую проверку
+    client.tls_set()  
 
 status_map = {}
 
